@@ -34,7 +34,7 @@ int p = 0;
       'https://i.scdn.co/image/f218335b215402cc2fb3b8d92652ebad48458805',
       'Luka Chuppi');
   List<Song> allSongs = SongData().songs;
-   
+
 // You are given a list of songs here for Stretch
 
   @override
@@ -46,7 +46,7 @@ int p = 0;
       if(p%2==1){
         audioPlayer.play('https://p.scdn.co/mp3-preview/4efd033217aa13f4625d37f95efa676fb02d4778?cid=774b29d4f13844c495f206cafdad9c86');
       }
-      else if(p%2==0){
+      else if(p%2==1){
         audioPlayer.stop();
       }
 
